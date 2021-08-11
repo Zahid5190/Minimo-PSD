@@ -1,0 +1,55 @@
+* { margin: 0px; padding: 0px; }
+header { width: 90%; margin: auto; padding: 40px 0px; display: flex; justify-content: space-between; }
+.logo { width: 20%; }
+.logo img { }
+nav { width: 50%; }
+nav ul { list-style: none; display: flex; justify-content: space-between; }
+nav ul li { }
+nav ul li a { text-decoration: none; font-size: 20px; color: rgb(98, 98, 98); text-transform: uppercase; font-family: "Playfair Display", serif; }
+.banner { width: 90%; margin: auto; }
+.banner img { width: 100%; }
+.contents { width: 80%; margin: auto; padding: 100px 0px; }
+.contents h3 { color: rgb(180, 173, 158); font-size: 14px; text-transform: uppercase; margin-bottom: 20px; }
+.contents h1 { color: rgb(98, 98, 98); font-size: 30px; margin-bottom: 20px; font-family: "Playfair Display", serif; }
+.contents p { font-size: 20px; color: rgb(98, 98, 98); margin-bottom: 20px; font-family: "Playfair Display", serif; text-align: justify; }
+.contents h4 { color: rgb(180, 173, 158); font-size: 14px; text-transform: uppercase; margin-top: 29px; margin-bottom: 175px; }
+.gallery { margin: 100px 0px; display: flex; justify-content: space-between; flex-wrap: wrap; }
+.gallery-1 { width: 45%; }
+.gallery-1 img { width: 100%; }
+.gallery-1 h3 { margin-top: 20px; }
+.gallery-1 h1 { }
+.gallery-1 p { }
+.gallery-2 { width: 45%; }
+.gallery-2 img { width: 100%; }
+.gallery-2 h3 { margin-top: 20px; }
+.gallery-2 h1 { }
+.gallery-2 p { }
+.gallery-3 { width: 45%; margin-top: 100px; }
+.gallery-3 img { width: 100%; }
+.gallery-3 h3 { margin-top: 20px; }
+.gallery-3 h1 { }
+.gallery-3 p { }
+.gallery-4 { width: 45%; margin-top: 100px; }
+.gallery-4 img { width: 100%; }
+.gallery-4 h3 { margin-top: 20px; }
+.gallery-4 h1 { }
+.gallery-4 p { }
+.signup { background-color: rgb(240, 240, 240); padding: 130px 0px; }
+.signup_content { width: 35%; margin: auto; text-align: center; position: relative; }
+.signup_content h1 { font-size: 32px; color: rgb(98, 98, 98); margin-bottom: 59px; font-family: "Playfair Display", serif; }
+.signup_content input { background: transparent; border-top: none; border-right: none; border-left: none; border-image: initial; border-bottom: 1px solid black; width: 60%; font-size: 18px; padding: 10px 0px; }
+.signup input ::placeholder { }
+.btn { background-color: rgb(255, 255, 255); text-align: center; margin-bottom: 145px; }
+.btn button { padding: 10px 23px; font-size: 25px; color: rgb(112, 112, 112); }
+.signup_content input :focus { outline: none; }
+footer { background-color: rgb(240, 240, 240); padding: 50px 0px; }
+.footer_content { width: 80%; margin: auto; display: flex; justify-content: space-between; }
+.terms { width: 22%; }
+.terms ul { list-style-type: none; display: flex; justify-content: space-between; }
+.terms ul li { }
+.terms ul li a { color: rgb(112, 112, 112); font-size: 20px; }
+.icons { width: 16%; }
+.icons ul { list-style-type: none; display: flex; justify-content: space-between; }
+.icons ul li { }
+.icons ul li a { text-decoration: none; color: rgb(112, 112, 112); font-size: 20px; }
+.icon { position: absolute; bottom: 0px; right: 0px; padding: 8px 0px; width: 45%; }
